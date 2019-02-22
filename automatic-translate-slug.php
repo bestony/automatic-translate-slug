@@ -25,7 +25,7 @@ function ats_update_slug($data, $post)
     switch ($options['ats_select_service']) {
         case 'youdaofanyi':
             require_once plugin_dir_path(__FILE__) . 'provider/youdaofanyi.php';
-            $translationService = new YoudaoFanYi([
+            $translationService = new ATS_YoudaoFanYi([
                 'key' => $options['ats_appid'],
                 'from' => $options['ats_secret'],
             ]);

@@ -1,6 +1,6 @@
 <?php
 
-class YoudaoFanYi
+class ATS_YoudaoFanYi
 {
     private $key, $from;
 

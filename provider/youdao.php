@@ -1,6 +1,6 @@
 <?php
 
-class YouDao
+class ATS_YouDao
 {
     protected $appid, $secret;
     protected $endpoint = 'https://openapi.youdao.com/api';
