@@ -1,0 +1,84 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Automatic Translate Slug\n"
+"POT-Creation-Date: 2019-02-22 08:38+0800\n"
+"PO-Revision-Date: 2019-02-22 08:39+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: automatic-translate-slug.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Plugin Name of the plugin/theme
+#: options.php:8 options.php:100
+msgid "Automatic Translate Slug"
+msgstr "自动翻译 Slug"
+
+#: options.php:19
+msgid "Plugin Settings"
+msgstr "插件设置"
+
+#: options.php:26
+msgid "Service Provider"
+msgstr "翻译服务提供方"
+
+#: options.php:34
+msgid "AppID"
+msgstr "AppID"
+
+#: options.php:42
+msgid "Secret"
+msgstr "Secret"
+
+#: options.php:56
+msgid "FanYi.YouDao.com"
+msgstr "有道翻译（fanyi.youdao.com)"
+
+#: options.php:57
+msgid "AI.YouDao.com"
+msgstr "有道智云（AI.youdao.com)"
+
+#: options.php:70
+msgid "Input Your AppID Here"
+msgstr "请在此填入你的 Appid （有道翻译 API 为 Key)"
+
+#: options.php:82
+msgid "Input Your  Secret Here"
+msgstr "请在此填入你的 Secret （有道翻译 API 为 From)"
+
+#: options.php:90
+msgid "Choose Translate Service to Transalte Your Title"
+msgstr "选择并配置你需要使用的服务提供商"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpstore.app/archives/automatic-translate-slug/"
+msgstr "https://wpstore.app/archives/automatic-translate-slug/"
+
+#. Description of the plugin/theme
+msgid "Make Your Post Slug Into English"
+msgstr "将你的文章 Slug 中的中文转换为英文"
+
+#. Author of the plugin/theme
+msgid "Bestony"
+msgstr "Bestony（白宦成）"
+
+#. Author URI of the plugin/theme
+msgid "https://wpstore.app/"
+msgstr "https://wpstore.app/"
+
+#~ msgid "YouDao AppID"
+#~ msgstr "AppID"
+
+#~ msgid "YouDao Secret"
+#~ msgstr "Secret"
