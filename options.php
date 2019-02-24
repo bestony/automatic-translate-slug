@@ -54,7 +54,11 @@ function ats_select_service_render()
     ?>
   <select name='ats_settings[ats_select_service]'>
     <option value='youdaofanyi' <?php selected($options['ats_select_service'], 1);?>><?php echo __('FanYi.YouDao.com', 'automatic-translate-slug'); ?></option>
-    <option value='youdaoai' <?php selected($options['ats_select_service'], 2);?>><?php echo __('AI.YouDao.com', 'automatic-translate-slug'); ?></option>
+    <option value='youdaoai' <?php selected($options['ats_select_service'], 2);?> disabled><?php echo __('AI.YouDao.com', 'automatic-translate-slug'); ?></option>
+    <option value='sougoufanyi' <?php selected($options['ats_select_service'], 2);?> disabled><?php echo __('Deepi.sogou.com', 'automatic-translate-slug'); ?></option>
+    <option value='googletranslate' <?php selected($options['ats_select_service'], 2);?> disabled><?php echo __('Google Translate', 'automatic-translate-slug'); ?></option>
+    <option value='baidutranslate' <?php selected($options['ats_select_service'], 2);?> disabled><?php echo __('Google Baidu Translate', 'automatic-translate-slug'); ?></option>
+
   </select>
 
 <?php
