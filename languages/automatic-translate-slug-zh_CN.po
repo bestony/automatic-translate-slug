@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Automatic Translate Slug\n"
-"POT-Creation-Date: 2019-02-22 08:38+0800\n"
-"PO-Revision-Date: 2019-02-22 08:39+0800\n"
+"POT-Creation-Date: 2019-02-24 19:12+0800\n"
+"PO-Revision-Date: 2019-02-24 19:13+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -14,14 +14,14 @@ msgstr ""
 "X-Poedit-WPHeader: automatic-translate-slug.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
-"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
 #. Plugin Name of the plugin/theme
-#: options.php:8 options.php:100
+#: options.php:8 options.php:108
 msgid "Automatic Translate Slug"
 msgstr "自动翻译 Slug"
 
@@ -49,17 +49,36 @@ msgstr "有道翻译（fanyi.youdao.com)"
 msgid "AI.YouDao.com"
 msgstr "有道智云（AI.youdao.com)"
 
-#: options.php:70
+#: options.php:58
+msgid "Deepi.sogou.com"
+msgstr "搜狗深智引擎(deepi.sogou.com)"
+
+#: options.php:59
+msgid "Translate.google.com"
+msgstr "Google 翻译 API (translate.google.com)"
+
+#: options.php:60
+msgid "Fanyi.baidu.com"
+msgstr "百度翻译(fanyi.baidu.com)"
+
+#: options.php:74
 msgid "Input Your AppID Here"
-msgstr "请在此填入你的 Appid （有道翻译 API 为 Key)"
+msgstr "请在此填入你的 Appid "
 
-#: options.php:82
+#: options.php:86
 msgid "Input Your  Secret Here"
-msgstr "请在此填入你的 Secret （有道翻译 API 为 From)"
+msgstr "请在此填入你的 Secret "
 
-#: options.php:90
+#: options.php:94
 msgid "Choose Translate Service to Transalte Your Title"
-msgstr "选择并配置你需要使用的服务提供商"
+msgstr "选择并配置你需要使用的服务提供商。"
+
+#: options.php:98
+#, php-format
+msgid ""
+"<strong>Please Read <a href=\"%s\" target=\"__blank\">Document</a> at First</"
+"strong>"
+msgstr "<b>使用请先阅读<a href=\"%s\" target=\"__blank\">配置说明</a></b>"
 
 #. Plugin URI of the plugin/theme
 msgid "https://wpstore.app/archives/automatic-translate-slug/"

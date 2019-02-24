@@ -3,7 +3,7 @@
  * Plugin Name: Automatic Translate Slug
  * Plugin URI:  https://wpstore.app/archives/automatic-translate-slug/
  * Description: Make Your Post Slug Into English
- * Version:     1.0.1
+ * Version:     1.0.2
  * Author:      Bestony
  * Author URI:  https://wpstore.app/
  * License:     GPL3

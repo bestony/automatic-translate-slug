@@ -5,14 +5,14 @@ Donate link: https://wpstore.app/donate/
 Requires at least: 4.7
 Tested up to: 5.1
 Requires PHP: 7.0
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPL3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 Make Your Post Slug Into English
 
 == Description ==
-This Plugin use Some Translate Provider to Translate Your Post Title into English as Post Slug, Then, Your Slug Didn\'t have a URL Encode String (like \"%9e\").
+This Plugin use Some Translate Provider to Translate Your Post Title into English as Post Slug, Then, Your Slug Didn\'t have a URL Encode String (like "%9e").
 
 == Installation ==
 1. Download Plugin
